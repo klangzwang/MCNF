@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[2,)"
+license="TANKGIRLIT"
+
+[[mods]]
+	modId="modname"
+	displayName="ModName"
+	version="${mod_version}"
+	authors=""
+	description=''''''
+[[dependencies.modname]]
+	modId="neoforge"
+	type="required"
+	versionRange="[${neo_version},)"
+	ordering="NONE"
+	side="BOTH"
+[[dependencies.modname]]
+	modId="minecraft"
+	type="required"
+	versionRange="[1.21.1]"
+	ordering="NONE"
+	side="BOTH"
